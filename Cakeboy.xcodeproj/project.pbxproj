@@ -141,6 +141,15 @@
 		F8DE06E119E4CD04007CC376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06E019E4CD04007CC376 /* AppDelegate.m */; };
 		F8DE06E419E4CD04007CC376 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06E319E4CD04007CC376 /* HelloWorldLayer.m */; };
 		F8DE06E719E4CD04007CC376 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06E619E4CD04007CC376 /* IntroLayer.m */; };
+		F8DE06F019E4CD72007CC376 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06EF19E4CD72007CC376 /* MainScreen.m */; };
+		F8DE06F319E4CDE1007CC376 /* OptionsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06F219E4CDE1007CC376 /* OptionsScreen.m */; };
+		F8DE06F619E4CE07007CC376 /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06F519E4CE07007CC376 /* Audio.m */; };
+		F8DE06F919E4CE1B007CC376 /* SkillLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06F819E4CE1B007CC376 /* SkillLevel.m */; };
+		F8DE06FC19E4CE2B007CC376 /* HighScores.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06FB19E4CE2B007CC376 /* HighScores.m */; };
+		F8DE06FF19E4CE50007CC376 /* QuitScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE06FE19E4CE50007CC376 /* QuitScreen.m */; };
+		F8DE070219E4CE5F007CC376 /* Pause.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE070119E4CE5F007CC376 /* Pause.m */; };
+		F8DE070519E4CE6E007CC376 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE070419E4CE6E007CC376 /* GameOver.m */; };
+		F8DE070819E4CE7E007CC376 /* HighScore.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE070719E4CE7E007CC376 /* HighScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,6 +434,24 @@
 		F8DE06E319E4CD04007CC376 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		F8DE06E519E4CD04007CC376 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		F8DE06E619E4CD04007CC376 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		F8DE06EE19E4CD72007CC376 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		F8DE06EF19E4CD72007CC376 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		F8DE06F119E4CDE1007CC376 /* OptionsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsScreen.h; sourceTree = "<group>"; };
+		F8DE06F219E4CDE1007CC376 /* OptionsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsScreen.m; sourceTree = "<group>"; };
+		F8DE06F419E4CE07007CC376 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		F8DE06F519E4CE07007CC376 /* Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
+		F8DE06F719E4CE1B007CC376 /* SkillLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillLevel.h; sourceTree = "<group>"; };
+		F8DE06F819E4CE1B007CC376 /* SkillLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillLevel.m; sourceTree = "<group>"; };
+		F8DE06FA19E4CE2B007CC376 /* HighScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScores.h; sourceTree = "<group>"; };
+		F8DE06FB19E4CE2B007CC376 /* HighScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScores.m; sourceTree = "<group>"; };
+		F8DE06FD19E4CE50007CC376 /* QuitScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuitScreen.h; sourceTree = "<group>"; };
+		F8DE06FE19E4CE50007CC376 /* QuitScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitScreen.m; sourceTree = "<group>"; };
+		F8DE070019E4CE5F007CC376 /* Pause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pause.h; sourceTree = "<group>"; };
+		F8DE070119E4CE5F007CC376 /* Pause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pause.m; sourceTree = "<group>"; };
+		F8DE070319E4CE6E007CC376 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		F8DE070419E4CE6E007CC376 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		F8DE070619E4CE7E007CC376 /* HighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScore.h; sourceTree = "<group>"; };
+		F8DE070719E4CE7E007CC376 /* HighScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,6 +478,7 @@
 		F8DE052E19E4CD02007CC376 = {
 			isa = PBXGroup;
 			children = (
+				F8DE06ED19E4CD1B007CC376 /* Screens */,
 				F8DE054E19E4CD02007CC376 /* Cakeboy */,
 				F8DE053919E4CD02007CC376 /* Frameworks */,
 				F8DE053819E4CD02007CC376 /* Products */,
@@ -879,6 +907,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8DE06ED19E4CD1B007CC376 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F8DE06EE19E4CD72007CC376 /* MainScreen.h */,
+				F8DE06EF19E4CD72007CC376 /* MainScreen.m */,
+				F8DE06F119E4CDE1007CC376 /* OptionsScreen.h */,
+				F8DE06F219E4CDE1007CC376 /* OptionsScreen.m */,
+				F8DE06F419E4CE07007CC376 /* Audio.h */,
+				F8DE06F519E4CE07007CC376 /* Audio.m */,
+				F8DE06F719E4CE1B007CC376 /* SkillLevel.h */,
+				F8DE06F819E4CE1B007CC376 /* SkillLevel.m */,
+				F8DE06FA19E4CE2B007CC376 /* HighScores.h */,
+				F8DE06FB19E4CE2B007CC376 /* HighScores.m */,
+				F8DE06FD19E4CE50007CC376 /* QuitScreen.h */,
+				F8DE06FE19E4CE50007CC376 /* QuitScreen.m */,
+				F8DE070019E4CE5F007CC376 /* Pause.h */,
+				F8DE070119E4CE5F007CC376 /* Pause.m */,
+				F8DE070319E4CE6E007CC376 /* GameOver.h */,
+				F8DE070419E4CE6E007CC376 /* GameOver.m */,
+				F8DE070619E4CE7E007CC376 /* HighScore.h */,
+				F8DE070719E4CE7E007CC376 /* HighScore.m */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -969,10 +1022,13 @@
 				F8DE066C19E4CD04007CC376 /* base64.c in Sources */,
 				F8DE058F19E4CD02007CC376 /* CCActionTween.m in Sources */,
 				F8DE05C619E4CD03007CC376 /* CCLabelBMFont.m in Sources */,
+				F8DE070219E4CE5F007CC376 /* Pause.m in Sources */,
 				F8DE067319E4CD04007CC376 /* ccCArray.m in Sources */,
 				F8DE069D19E4CD04007CC376 /* CDXMacOSXSupport.m in Sources */,
 				F8DE069119E4CD04007CC376 /* ZipUtils.m in Sources */,
 				F8DE058319E4CD02007CC376 /* CCActionManager.m in Sources */,
+				F8DE06F619E4CE07007CC376 /* Audio.m in Sources */,
+				F8DE06FF19E4CE50007CC376 /* QuitScreen.m in Sources */,
 				F8DE05EB19E4CD03007CC376 /* CCParticleSystemQuad.m in Sources */,
 				F8DE05AE19E4CD02007CC376 /* CCDrawNode.m in Sources */,
 				F8DE064019E4CD03007CC376 /* CCTransitionPageTurn.m in Sources */,
@@ -1000,9 +1056,11 @@
 				F8DE065119E4CD04007CC376 /* CCES2Renderer.m in Sources */,
 				F8DE05C319E4CD03007CC376 /* CCLabelAtlas.m in Sources */,
 				F8DE05DF19E4CD03007CC376 /* CCParallaxNode.m in Sources */,
+				F8DE070519E4CE6E007CC376 /* GameOver.m in Sources */,
 				F8DE06E719E4CD04007CC376 /* IntroLayer.m in Sources */,
 				F8DE057719E4CD02007CC376 /* CCActionGrid.m in Sources */,
 				F8DE05C019E4CD03007CC376 /* CCGrid.m in Sources */,
+				F8DE070819E4CE7E007CC376 /* HighScore.m in Sources */,
 				F8DE06CF19E4CD04007CC376 /* quaternion.c in Sources */,
 				F8DE061C19E4CD03007CC376 /* CCSpriteFrame.m in Sources */,
 				F8DE058919E4CD02007CC376 /* CCActionProgressTimer.m in Sources */,
@@ -1014,13 +1072,16 @@
 				F8DE057A19E4CD02007CC376 /* CCActionGrid3D.m in Sources */,
 				F8DE06C319E4CD04007CC376 /* mat4stack.c in Sources */,
 				F8DE061F19E4CD03007CC376 /* CCSpriteFrameCache.m in Sources */,
+				F8DE06F319E4CDE1007CC376 /* OptionsScreen.m in Sources */,
 				F8DE05A819E4CD02007CC376 /* CCDirector.m in Sources */,
 				F8DE059819E4CD02007CC376 /* CCAtlasNode.m in Sources */,
+				F8DE06F919E4CE1B007CC376 /* SkillLevel.m in Sources */,
 				F8DE06DE19E4CD04007CC376 /* main.m in Sources */,
 				F8DE065C19E4CD04007CC376 /* CCTouchHandler.m in Sources */,
 				F8DE05D619E4CD03007CC376 /* CCMotionStreak.m in Sources */,
 				F8DE065519E4CD04007CC376 /* CCGLView.m in Sources */,
 				F8DE068219E4CD04007CC376 /* CGPointExtension.m in Sources */,
+				F8DE06FC19E4CE2B007CC376 /* HighScores.m in Sources */,
 				F8DE058619E4CD02007CC376 /* CCActionPageTurn3D.m in Sources */,
 				F8DE06D719E4CD04007CC376 /* vec3.c in Sources */,
 				F8DE068919E4CD04007CC376 /* TGAlib.m in Sources */,
@@ -1061,6 +1122,7 @@
 				F8DE059B19E4CD02007CC376 /* CCCamera.m in Sources */,
 				F8DE059519E4CD02007CC376 /* CCAnimationCache.m in Sources */,
 				F8DE05B719E4CD02007CC376 /* CCGLProgram.m in Sources */,
+				F8DE06F019E4CD72007CC376 /* MainScreen.m in Sources */,
 				F8DE06A719E4CD04007CC376 /* SimpleAudioEngine.m in Sources */,
 				F8DE065919E4CD04007CC376 /* CCTouchDispatcher.m in Sources */,
 				F8DE05DC19E4CD03007CC376 /* CCNode.m in Sources */,

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0889D060-7749-4092-8B51-3E6F124C1D15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cakeboy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F5DFA649-17BE-42D3-B01B-DB5737115773</key>
+		<string>https://github.com/JingTaiWu/CakeBoyAdvanture.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cakeboy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F5DFA649-17BE-42D3-B01B-DB5737115773</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JingTaiWu/CakeBoyAdvanture.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F5DFA649-17BE-42D3-B01B-DB5737115773</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F5DFA649-17BE-42D3-B01B-DB5737115773</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CakeBoyAdvanture</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,14 +1,16 @@
 //
-//  Pause.m
+//  HighScore.h
 //  Cakeboy
 //
 //  Created by Marist User on 10/7/14.
 //  Copyright 2014 JingtaiWu. All rights reserved.
 //
 
-#import "Pause.h"
+#import <Foundation/Foundation.h>
+#import "cocos2d.h"
 
-
-@implementation Pause
+@interface HighScoreScreen : CCLayer {
+    
+}
 
 @end

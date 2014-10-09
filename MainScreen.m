@@ -24,6 +24,21 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
+        // Center Text
+        // Add the text
+        // create and initialize a Label
+        NSString* text = @"Cake Boy's Adventure";
+        
+        CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:30 dimensions: CGSizeMake(400,100) hAlignment:UITextAlignmentCenter];
+        
+        [label setColor:ccc3(0, 255, 0)];
+        
+        // position the label on the center of the screen
+        label.position =  ccp( screenWidth /2 , screenHeight/2 );
+        
+        // add the label as a child to this Layer
+        [self addChild: label];
+        
         // Add the buttons to the menu
         CCMenuItem *startButton =
         [CCMenuItemFont itemWithString:@"Start" target:self selector:@selector(onStart:)];
@@ -52,5 +67,9 @@
 
 -(void)onOptions:(CCMenuItemFont *)button {
     [[CCDirector sharedDirector] pushScene:[OptionsScreen scene]];
+}
+
+-(void)onStart:(CCMenuItemFont *)button {
+    // Start the Game
 }
 @end

@@ -1,22 +1,23 @@
 //
-//  Options.m
+//  Audio.m
 //  Cakeboy
 //
 //  Created by Marist User on 10/7/14.
 //  Copyright 2014 JingtaiWu. All rights reserved.
 //
 
-#import "OptionsScreen.h"
+#import "AudioScreen.h"
 
 
-@implementation OptionsScreen : CCLayer
+@implementation AudioScreen : CCLayer
+
 +(CCScene *) scene
 {
 	// 'scene' is an autorelease object.
 	CCScene* scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	OptionsScreen *layer = [OptionsScreen node];
+	AudioScreen *layer = [AudioScreen node];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];
@@ -35,18 +36,12 @@
         
         // Add the buttons to the menu
         CCMenuItem *audioButton =
-        [CCMenuItemFont itemWithString:@"Audio" target:self selector:@selector(onAudio:)];
-        
-        CCMenuItem *skillButton =
-        [CCMenuItemFont itemWithString:@"Skill Level" target:self selector:@selector(onSkillLevel:)];
-        
-        CCMenuItem *highScoreButton =
-        [CCMenuItemFont itemWithString:@"High Score" target:self selector:@selector(onHighScore:)];
+        [CCMenuItemFont itemWithString:@"Audio On/Off" target:self selector:@selector(toggleSound:)];
         
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
         
-        CCMenu *menu = [CCMenu menuWithItems:audioButton, skillButton, highScoreButton, backButton,nil];
+        CCMenu *menu = [CCMenu menuWithItems:audioButton, backButton,nil];
         
         [menu alignItemsVertically];
         
@@ -59,22 +54,10 @@
 }
 
 -(void)onBack:(CCMenuItemFont *)button {
-    // Goes back to the main screen
+    // Goes back to the previous screen
     [[CCDirector sharedDirector] popScene];
 }
 
--(void)onAudio:(CCMenuItemFont *)button {
-    // Goes to the audio screen
-    [[CCDirector sharedDirector] pushScene:[AudioScreen scene]];
-}
-
--(void)onHighScore:(CCMenuItemFont *)button {
-    // Goes to the high score screen
-    [[CCDirector sharedDirector] pushScene:[HighScoresScreen scene]];
-}
-
--(void)onSkillLevel:(CCMenuItemFont *)button {
-    // Goes to the skill level screen
-    [[CCDirector sharedDirector] pushScene:[SkillLevelScreen scene]];
+-(void)toggleSound:(CCMenuItemFont *)button {
 }
 @end

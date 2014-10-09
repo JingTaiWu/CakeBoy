@@ -16,4 +16,5 @@
 -(id) init;
 -(void) onQuit: (CCMenuItemFont*) button;
 -(void) onOptions: (CCMenuItemFont*) button;
+-(void) onStart: (CCMenuItemFont*) button;
 @end

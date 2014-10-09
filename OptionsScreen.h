@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "AudioScreen.h"
+#import "HighScoresScreen.h"
+#import "SkillLevelScreen.h"
 
 @interface OptionsScreen : CCLayer
 +(CCScene *) scene;

@@ -7,6 +7,7 @@
 //
 
 #import "MainScreen.h"
+#import "InterLevel.h"
 
 @implementation MainScreen : CCLayer
 +(CCScene *) scene {
@@ -71,5 +72,6 @@
 
 -(void)onStart:(CCMenuItemFont *)button {
     // Start the Game
+    [[CCDirector sharedDirector] pushScene:[InterLevel scene]];
 }
 @end

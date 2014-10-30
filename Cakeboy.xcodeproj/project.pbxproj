@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F88F19601A02C3B30011CD52 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19551A02C3B30011CD52 /* Enemy.m */; };
+		F88F19611A02C3B30011CD52 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19571A02C3B30011CD52 /* Entity.m */; };
+		F88F19621A02C3B30011CD52 /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19591A02C3B30011CD52 /* Goal.m */; };
+		F88F19631A02C3B30011CD52 /* Gorgon.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F195B1A02C3B30011CD52 /* Gorgon.m */; };
+		F88F19641A02C3B30011CD52 /* Grace.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F195D1A02C3B30011CD52 /* Grace.m */; };
+		F88F19651A02C3B30011CD52 /* Harpie.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F195F1A02C3B30011CD52 /* Harpie.m */; };
+		F88F19721A02C4230011CD52 /* AbstractLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19671A02C4230011CD52 /* AbstractLevel.m */; };
+		F88F19731A02C4230011CD52 /* Complete.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19691A02C4230011CD52 /* Complete.m */; };
+		F88F19741A02C4230011CD52 /* Credits.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F196B1A02C4230011CD52 /* Credits.m */; };
+		F88F19751A02C4230011CD52 /* InterLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F196D1A02C4230011CD52 /* InterLevel.m */; };
+		F88F19761A02C4230011CD52 /* Level0.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F196F1A02C4230011CD52 /* Level0.m */; };
+		F88F19771A02C4230011CD52 /* Level1.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19711A02C4230011CD52 /* Level1.m */; };
+		F88F19861A02C4530011CD52 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19791A02C4530011CD52 /* GameController.m */; };
+		F88F19871A02C4530011CD52 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F197B1A02C4530011CD52 /* Helper.m */; };
+		F88F19881A02C4530011CD52 /* LevelSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F197D1A02C4530011CD52 /* LevelSequence.m */; };
+		F88F19891A02C4530011CD52 /* Lives.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F197F1A02C4530011CD52 /* Lives.m */; };
+		F88F198A1A02C4530011CD52 /* Options.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19811A02C4530011CD52 /* Options.m */; };
+		F88F198B1A02C4530011CD52 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19831A02C4530011CD52 /* Score.m */; };
+		F88F198C1A02C4530011CD52 /* SoundEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19851A02C4530011CD52 /* SoundEffects.m */; };
+		F88F19951A02C4660011CD52 /* SneakyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F198E1A02C4660011CD52 /* SneakyButton.m */; };
+		F88F19961A02C4660011CD52 /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19901A02C4660011CD52 /* SneakyButtonSkinnedBase.m */; };
+		F88F19971A02C4660011CD52 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19921A02C4660011CD52 /* SneakyJoystick.m */; };
+		F88F19981A02C4660011CD52 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19941A02C4660011CD52 /* SneakyJoystickSkinnedBase.m */; };
+		F88F199C1A02C4990011CD52 /* backg.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F88F19991A02C4990011CD52 /* backg.tmx */; };
+		F88F199D1A02C4990011CD52 /* level0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F88F199A1A02C4990011CD52 /* level0.tmx */; };
+		F88F199E1A02C4990011CD52 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F88F199B1A02C4990011CD52 /* level1.tmx */; };
+		F88F19A81A02C4CA0011CD52 /* dpadDown3.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F199F1A02C4CA0011CD52 /* dpadDown3.png */; };
+		F88F19A91A02C4CA0011CD52 /* goal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A01A02C4CA0011CD52 /* goal_2.png */; };
+		F88F19AA1A02C4CA0011CD52 /* gorgon.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A11A02C4CA0011CD52 /* gorgon.png */; };
+		F88F19AB1A02C4CA0011CD52 /* grace.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A21A02C4CA0011CD52 /* grace.png */; };
+		F88F19AC1A02C4CA0011CD52 /* harpie.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A31A02C4CA0011CD52 /* harpie.png */; };
+		F88F19AD1A02C4CA0011CD52 /* joystickDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A41A02C4CA0011CD52 /* joystickDown.png */; };
+		F88F19AE1A02C4CA0011CD52 /* quit-button2.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A51A02C4CA0011CD52 /* quit-button2.png */; };
+		F88F19AF1A02C4CA0011CD52 /* sky_160.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A61A02C4CA0011CD52 /* sky_160.png */; };
+		F88F19B01A02C4CA0011CD52 /* tiles_mga.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A71A02C4CA0011CD52 /* tiles_mga.png */; };
+		F88F19BC1A02C5250011CD52 /* aaaah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B11A02C5250011CD52 /* aaaah.mp3 */; };
+		F88F19BD1A02C5250011CD52 /* blip2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B21A02C5250011CD52 /* blip2.mp3 */; };
+		F88F19BE1A02C5250011CD52 /* bonus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B31A02C5250011CD52 /* bonus.mp3 */; };
+		F88F19BF1A02C5250011CD52 /* cheer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B41A02C5250011CD52 /* cheer2.mp3 */; };
+		F88F19C01A02C5250011CD52 /* evil-laf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B51A02C5250011CD52 /* evil-laf.mp3 */; };
+		F88F19C11A02C5250011CD52 /* shazam2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B61A02C5250011CD52 /* shazam2.mp3 */; };
+		F88F19C21A02C5250011CD52 /* wow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B71A02C5250011CD52 /* wow.mp3 */; };
+		F88F19C31A02C5250011CD52 /* you-can-do-it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B81A02C5250011CD52 /* you-can-do-it.mp3 */; };
+		F88F19C41A02C5250011CD52 /* you-got-it-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19B91A02C5250011CD52 /* you-got-it-1.mp3 */; };
+		F88F19C51A02C5250011CD52 /* you-need-to-grow-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19BA1A02C5250011CD52 /* you-need-to-grow-up.mp3 */; };
+		F88F19C61A02C5250011CD52 /* yummy2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19BB1A02C5250011CD52 /* yummy2.mp3 */; };
+		F88F19C81A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19C71A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 */; };
 		F8DE053B19E4CD02007CC376 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DE053A19E4CD02007CC376 /* QuartzCore.framework */; };
 		F8DE053D19E4CD02007CC376 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DE053C19E4CD02007CC376 /* OpenGLES.framework */; };
 		F8DE053F19E4CD02007CC376 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DE053E19E4CD02007CC376 /* OpenAL.framework */; };
@@ -153,6 +200,76 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F88F19541A02C3B30011CD52 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		F88F19551A02C3B30011CD52 /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		F88F19561A02C3B30011CD52 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		F88F19571A02C3B30011CD52 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		F88F19581A02C3B30011CD52 /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goal.h; sourceTree = "<group>"; };
+		F88F19591A02C3B30011CD52 /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goal.m; sourceTree = "<group>"; };
+		F88F195A1A02C3B30011CD52 /* Gorgon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gorgon.h; sourceTree = "<group>"; };
+		F88F195B1A02C3B30011CD52 /* Gorgon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gorgon.m; sourceTree = "<group>"; };
+		F88F195C1A02C3B30011CD52 /* Grace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grace.h; sourceTree = "<group>"; };
+		F88F195D1A02C3B30011CD52 /* Grace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grace.m; sourceTree = "<group>"; };
+		F88F195E1A02C3B30011CD52 /* Harpie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Harpie.h; sourceTree = "<group>"; };
+		F88F195F1A02C3B30011CD52 /* Harpie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Harpie.m; sourceTree = "<group>"; };
+		F88F19661A02C4230011CD52 /* AbstractLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractLevel.h; sourceTree = "<group>"; };
+		F88F19671A02C4230011CD52 /* AbstractLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractLevel.m; sourceTree = "<group>"; };
+		F88F19681A02C4230011CD52 /* Complete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complete.h; sourceTree = "<group>"; };
+		F88F19691A02C4230011CD52 /* Complete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complete.m; sourceTree = "<group>"; };
+		F88F196A1A02C4230011CD52 /* Credits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credits.h; sourceTree = "<group>"; };
+		F88F196B1A02C4230011CD52 /* Credits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credits.m; sourceTree = "<group>"; };
+		F88F196C1A02C4230011CD52 /* InterLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterLevel.h; sourceTree = "<group>"; };
+		F88F196D1A02C4230011CD52 /* InterLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterLevel.m; sourceTree = "<group>"; };
+		F88F196E1A02C4230011CD52 /* Level0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level0.h; sourceTree = "<group>"; };
+		F88F196F1A02C4230011CD52 /* Level0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level0.m; sourceTree = "<group>"; };
+		F88F19701A02C4230011CD52 /* Level1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level1.h; sourceTree = "<group>"; };
+		F88F19711A02C4230011CD52 /* Level1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level1.m; sourceTree = "<group>"; };
+		F88F19781A02C4530011CD52 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		F88F19791A02C4530011CD52 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		F88F197A1A02C4530011CD52 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		F88F197B1A02C4530011CD52 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		F88F197C1A02C4530011CD52 /* LevelSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSequence.h; sourceTree = "<group>"; };
+		F88F197D1A02C4530011CD52 /* LevelSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSequence.m; sourceTree = "<group>"; };
+		F88F197E1A02C4530011CD52 /* Lives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lives.h; sourceTree = "<group>"; };
+		F88F197F1A02C4530011CD52 /* Lives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lives.m; sourceTree = "<group>"; };
+		F88F19801A02C4530011CD52 /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		F88F19811A02C4530011CD52 /* Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Options.m; sourceTree = "<group>"; };
+		F88F19821A02C4530011CD52 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		F88F19831A02C4530011CD52 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		F88F19841A02C4530011CD52 /* SoundEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffects.h; sourceTree = "<group>"; };
+		F88F19851A02C4530011CD52 /* SoundEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffects.m; sourceTree = "<group>"; };
+		F88F198D1A02C4660011CD52 /* SneakyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButton.h; sourceTree = "<group>"; };
+		F88F198E1A02C4660011CD52 /* SneakyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButton.m; sourceTree = "<group>"; };
+		F88F198F1A02C4660011CD52 /* SneakyButtonSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButtonSkinnedBase.h; sourceTree = "<group>"; };
+		F88F19901A02C4660011CD52 /* SneakyButtonSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButtonSkinnedBase.m; sourceTree = "<group>"; };
+		F88F19911A02C4660011CD52 /* SneakyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystick.h; sourceTree = "<group>"; };
+		F88F19921A02C4660011CD52 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystick.m; sourceTree = "<group>"; };
+		F88F19931A02C4660011CD52 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
+		F88F19941A02C4660011CD52 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
+		F88F19991A02C4990011CD52 /* backg.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = backg.tmx; sourceTree = "<group>"; };
+		F88F199A1A02C4990011CD52 /* level0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level0.tmx; sourceTree = "<group>"; };
+		F88F199B1A02C4990011CD52 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		F88F199F1A02C4CA0011CD52 /* dpadDown3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadDown3.png; sourceTree = "<group>"; };
+		F88F19A01A02C4CA0011CD52 /* goal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goal_2.png; sourceTree = "<group>"; };
+		F88F19A11A02C4CA0011CD52 /* gorgon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorgon.png; sourceTree = "<group>"; };
+		F88F19A21A02C4CA0011CD52 /* grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grace.png; sourceTree = "<group>"; };
+		F88F19A31A02C4CA0011CD52 /* harpie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harpie.png; sourceTree = "<group>"; };
+		F88F19A41A02C4CA0011CD52 /* joystickDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickDown.png; sourceTree = "<group>"; };
+		F88F19A51A02C4CA0011CD52 /* quit-button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quit-button2.png"; sourceTree = "<group>"; };
+		F88F19A61A02C4CA0011CD52 /* sky_160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky_160.png; sourceTree = "<group>"; };
+		F88F19A71A02C4CA0011CD52 /* tiles_mga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiles_mga.png; sourceTree = "<group>"; };
+		F88F19B11A02C5250011CD52 /* aaaah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aaaah.mp3; sourceTree = "<group>"; };
+		F88F19B21A02C5250011CD52 /* blip2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blip2.mp3; sourceTree = "<group>"; };
+		F88F19B31A02C5250011CD52 /* bonus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonus.mp3; sourceTree = "<group>"; };
+		F88F19B41A02C5250011CD52 /* cheer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer2.mp3; sourceTree = "<group>"; };
+		F88F19B51A02C5250011CD52 /* evil-laf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "evil-laf.mp3"; sourceTree = "<group>"; };
+		F88F19B61A02C5250011CD52 /* shazam2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shazam2.mp3; sourceTree = "<group>"; };
+		F88F19B71A02C5250011CD52 /* wow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wow.mp3; sourceTree = "<group>"; };
+		F88F19B81A02C5250011CD52 /* you-can-do-it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-can-do-it.mp3"; sourceTree = "<group>"; };
+		F88F19B91A02C5250011CD52 /* you-got-it-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-got-it-1.mp3"; sourceTree = "<group>"; };
+		F88F19BA1A02C5250011CD52 /* you-need-to-grow-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-need-to-grow-up.mp3"; sourceTree = "<group>"; };
+		F88F19BB1A02C5250011CD52 /* yummy2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yummy2.mp3; sourceTree = "<group>"; };
+		F88F19C71A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4225775_The_River_War_Original_Mix.mp3; sourceTree = "<group>"; };
 		F8DE053719E4CD02007CC376 /* Cakeboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cakeboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DE053A19E4CD02007CC376 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F8DE053C19E4CD02007CC376 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -428,12 +545,12 @@
 		F8DE06DA19E4CD04007CC376 /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_Kazmath.txt; path = libs/LICENSE_Kazmath.txt; sourceTree = "<group>"; };
 		F8DE06DC19E4CD04007CC376 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		F8DE06DD19E4CD04007CC376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F8DE06DF19E4CD04007CC376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F8DE06E019E4CD04007CC376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8DE06E219E4CD04007CC376 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		F8DE06E319E4CD04007CC376 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		F8DE06E519E4CD04007CC376 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		F8DE06E619E4CD04007CC376 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		F8DE06DF19E4CD04007CC376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cakeboy/AppDelegate.h; sourceTree = "<group>"; };
+		F8DE06E019E4CD04007CC376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cakeboy/AppDelegate.m; sourceTree = "<group>"; };
+		F8DE06E219E4CD04007CC376 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldLayer.h; path = Cakeboy/HelloWorldLayer.h; sourceTree = "<group>"; };
+		F8DE06E319E4CD04007CC376 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldLayer.m; path = Cakeboy/HelloWorldLayer.m; sourceTree = "<group>"; };
+		F8DE06E519E4CD04007CC376 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroLayer.h; path = Cakeboy/IntroLayer.h; sourceTree = "<group>"; };
+		F8DE06E619E4CD04007CC376 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroLayer.m; path = Cakeboy/IntroLayer.m; sourceTree = "<group>"; };
 		F8DE06EE19E4CD72007CC376 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		F8DE06EF19E4CD72007CC376 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
 		F8DE06F119E4CDE1007CC376 /* OptionsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsScreen.h; sourceTree = "<group>"; };
@@ -475,9 +592,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F88F194D1A02C3470011CD52 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F88F19541A02C3B30011CD52 /* Enemy.h */,
+				F88F19551A02C3B30011CD52 /* Enemy.m */,
+				F88F19561A02C3B30011CD52 /* Entity.h */,
+				F88F19571A02C3B30011CD52 /* Entity.m */,
+				F88F19581A02C3B30011CD52 /* Goal.h */,
+				F88F19591A02C3B30011CD52 /* Goal.m */,
+				F88F195A1A02C3B30011CD52 /* Gorgon.h */,
+				F88F195B1A02C3B30011CD52 /* Gorgon.m */,
+				F88F195C1A02C3B30011CD52 /* Grace.h */,
+				F88F195D1A02C3B30011CD52 /* Grace.m */,
+				F88F195E1A02C3B30011CD52 /* Harpie.h */,
+				F88F195F1A02C3B30011CD52 /* Harpie.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		F88F194E1A02C3570011CD52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F88F19781A02C4530011CD52 /* GameController.h */,
+				F88F19791A02C4530011CD52 /* GameController.m */,
+				F88F197A1A02C4530011CD52 /* Helper.h */,
+				F88F197B1A02C4530011CD52 /* Helper.m */,
+				F88F197C1A02C4530011CD52 /* LevelSequence.h */,
+				F88F197D1A02C4530011CD52 /* LevelSequence.m */,
+				F88F197E1A02C4530011CD52 /* Lives.h */,
+				F88F197F1A02C4530011CD52 /* Lives.m */,
+				F88F19801A02C4530011CD52 /* Options.h */,
+				F88F19811A02C4530011CD52 /* Options.m */,
+				F88F19821A02C4530011CD52 /* Score.h */,
+				F88F19831A02C4530011CD52 /* Score.m */,
+				F88F19841A02C4530011CD52 /* SoundEffects.h */,
+				F88F19851A02C4530011CD52 /* SoundEffects.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F88F194F1A02C3620011CD52 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				F88F19991A02C4990011CD52 /* backg.tmx */,
+				F88F199A1A02C4990011CD52 /* level0.tmx */,
+				F88F199B1A02C4990011CD52 /* level1.tmx */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		F88F19501A02C3680011CD52 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F88F19C71A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 */,
+				F88F19B11A02C5250011CD52 /* aaaah.mp3 */,
+				F88F19B21A02C5250011CD52 /* blip2.mp3 */,
+				F88F19B31A02C5250011CD52 /* bonus.mp3 */,
+				F88F19B41A02C5250011CD52 /* cheer2.mp3 */,
+				F88F19B51A02C5250011CD52 /* evil-laf.mp3 */,
+				F88F19B61A02C5250011CD52 /* shazam2.mp3 */,
+				F88F19B71A02C5250011CD52 /* wow.mp3 */,
+				F88F19B81A02C5250011CD52 /* you-can-do-it.mp3 */,
+				F88F19B91A02C5250011CD52 /* you-got-it-1.mp3 */,
+				F88F19BA1A02C5250011CD52 /* you-need-to-grow-up.mp3 */,
+				F88F19BB1A02C5250011CD52 /* yummy2.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		F88F19511A02C3720011CD52 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F88F199F1A02C4CA0011CD52 /* dpadDown3.png */,
+				F88F19A01A02C4CA0011CD52 /* goal_2.png */,
+				F88F19A11A02C4CA0011CD52 /* gorgon.png */,
+				F88F19A21A02C4CA0011CD52 /* grace.png */,
+				F88F19A31A02C4CA0011CD52 /* harpie.png */,
+				F88F19A41A02C4CA0011CD52 /* joystickDown.png */,
+				F88F19A51A02C4CA0011CD52 /* quit-button2.png */,
+				F88F19A61A02C4CA0011CD52 /* sky_160.png */,
+				F88F19A71A02C4CA0011CD52 /* tiles_mga.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F88F19521A02C3770011CD52 /* Joystick API */ = {
+			isa = PBXGroup;
+			children = (
+				F88F198D1A02C4660011CD52 /* SneakyButton.h */,
+				F88F198E1A02C4660011CD52 /* SneakyButton.m */,
+				F88F198F1A02C4660011CD52 /* SneakyButtonSkinnedBase.h */,
+				F88F19901A02C4660011CD52 /* SneakyButtonSkinnedBase.m */,
+				F88F19911A02C4660011CD52 /* SneakyJoystick.h */,
+				F88F19921A02C4660011CD52 /* SneakyJoystick.m */,
+				F88F19931A02C4660011CD52 /* SneakyJoystickSkinnedBase.h */,
+				F88F19941A02C4660011CD52 /* SneakyJoystickSkinnedBase.m */,
+			);
+			name = "Joystick API";
+			sourceTree = "<group>";
+		};
+		F88F19531A02C37E0011CD52 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				F8DE06DF19E4CD04007CC376 /* AppDelegate.h */,
+				F8DE06E019E4CD04007CC376 /* AppDelegate.m */,
+				F8DE06E219E4CD04007CC376 /* HelloWorldLayer.h */,
+				F8DE06E319E4CD04007CC376 /* HelloWorldLayer.m */,
+				F8DE06E519E4CD04007CC376 /* IntroLayer.h */,
+				F8DE06E619E4CD04007CC376 /* IntroLayer.m */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
 		F8DE052E19E4CD02007CC376 = {
 			isa = PBXGroup;
 			children = (
+				F88F19531A02C37E0011CD52 /* Generated */,
+				F88F19521A02C3770011CD52 /* Joystick API */,
+				F88F19511A02C3720011CD52 /* Images */,
+				F88F19501A02C3680011CD52 /* Audio */,
+				F88F194F1A02C3620011CD52 /* Maps */,
+				F88F194E1A02C3570011CD52 /* Utils */,
+				F88F194D1A02C3470011CD52 /* Entities */,
 				F8DE06ED19E4CD1B007CC376 /* Screens */,
 				F8DE054E19E4CD02007CC376 /* Cakeboy */,
 				F8DE053919E4CD02007CC376 /* Frameworks */,
@@ -513,12 +750,6 @@
 		F8DE054E19E4CD02007CC376 /* Cakeboy */ = {
 			isa = PBXGroup;
 			children = (
-				F8DE06DF19E4CD04007CC376 /* AppDelegate.h */,
-				F8DE06E019E4CD04007CC376 /* AppDelegate.m */,
-				F8DE06E219E4CD04007CC376 /* HelloWorldLayer.h */,
-				F8DE06E319E4CD04007CC376 /* HelloWorldLayer.m */,
-				F8DE06E519E4CD04007CC376 /* IntroLayer.h */,
-				F8DE06E619E4CD04007CC376 /* IntroLayer.m */,
 				F8DE054F19E4CD02007CC376 /* Resources */,
 				F8DE056719E4CD02007CC376 /* libs */,
 				F8DE06DB19E4CD04007CC376 /* Supporting Files */,
@@ -910,6 +1141,18 @@
 		F8DE06ED19E4CD1B007CC376 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F88F19661A02C4230011CD52 /* AbstractLevel.h */,
+				F88F19671A02C4230011CD52 /* AbstractLevel.m */,
+				F88F19681A02C4230011CD52 /* Complete.h */,
+				F88F19691A02C4230011CD52 /* Complete.m */,
+				F88F196A1A02C4230011CD52 /* Credits.h */,
+				F88F196B1A02C4230011CD52 /* Credits.m */,
+				F88F196C1A02C4230011CD52 /* InterLevel.h */,
+				F88F196D1A02C4230011CD52 /* InterLevel.m */,
+				F88F196E1A02C4230011CD52 /* Level0.h */,
+				F88F196F1A02C4230011CD52 /* Level0.m */,
+				F88F19701A02C4230011CD52 /* Level1.h */,
+				F88F19711A02C4230011CD52 /* Level1.m */,
 				F8DE06EE19E4CD72007CC376 /* MainScreen.h */,
 				F8DE06EF19E4CD72007CC376 /* MainScreen.m */,
 				F8DE06F119E4CDE1007CC376 /* OptionsScreen.h */,
@@ -983,16 +1226,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88F19AB1A02C4CA0011CD52 /* grace.png in Resources */,
+				F88F19C51A02C5250011CD52 /* you-need-to-grow-up.mp3 in Resources */,
+				F88F199E1A02C4990011CD52 /* level1.tmx in Resources */,
+				F88F19AC1A02C4CA0011CD52 /* harpie.png in Resources */,
+				F88F19A91A02C4CA0011CD52 /* goal_2.png in Resources */,
+				F88F19AD1A02C4CA0011CD52 /* joystickDown.png in Resources */,
+				F88F19B01A02C4CA0011CD52 /* tiles_mga.png in Resources */,
+				F88F19BD1A02C5250011CD52 /* blip2.mp3 in Resources */,
+				F88F19C11A02C5250011CD52 /* shazam2.mp3 in Resources */,
 				F8DE056119E4CD02007CC376 /* Icon.png in Resources */,
 				F8DE06BF19E4CD04007CC376 /* ChangeLog in Resources */,
+				F88F19BF1A02C5250011CD52 /* cheer2.mp3 in Resources */,
 				F8DE055319E4CD02007CC376 /* Default@2x.png in Resources */,
+				F88F19A81A02C4CA0011CD52 /* dpadDown3.png in Resources */,
+				F88F19BE1A02C5250011CD52 /* bonus.mp3 in Resources */,
+				F88F19AF1A02C4CA0011CD52 /* sky_160.png in Resources */,
 				F8DE055D19E4CD02007CC376 /* Icon-Small.png in Resources */,
+				F88F19C41A02C5250011CD52 /* you-got-it-1.mp3 in Resources */,
 				F8DE055919E4CD02007CC376 /* Icon-72.png in Resources */,
 				F8DE055119E4CD02007CC376 /* Default.png in Resources */,
+				F88F19C21A02C5250011CD52 /* wow.mp3 in Resources */,
+				F88F19BC1A02C5250011CD52 /* aaaah.mp3 in Resources */,
 				F8DE055B19E4CD02007CC376 /* Icon-Small-50.png in Resources */,
+				F88F19C31A02C5250011CD52 /* you-can-do-it.mp3 in Resources */,
 				F8DE056619E4CD02007CC376 /* iTunesArtwork in Resources */,
+				F88F19C81A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 in Resources */,
+				F88F19C61A02C5250011CD52 /* yummy2.mp3 in Resources */,
 				F8DE055F19E4CD02007CC376 /* Icon-Small@2x.png in Resources */,
+				F88F199C1A02C4990011CD52 /* backg.tmx in Resources */,
+				F88F19AA1A02C4CA0011CD52 /* gorgon.png in Resources */,
 				F8DE055719E4CD02007CC376 /* Default-Landscape~ipad.png in Resources */,
+				F88F19C01A02C5250011CD52 /* evil-laf.mp3 in Resources */,
+				F88F199D1A02C4990011CD52 /* level0.tmx in Resources */,
+				F88F19AE1A02C4CA0011CD52 /* quit-button2.png in Resources */,
 				F8DE055519E4CD02007CC376 /* Default-568h@2x.png in Resources */,
 				F8DE056319E4CD02007CC376 /* Icon@2x.png in Resources */,
 			);
@@ -1007,6 +1274,9 @@
 			files = (
 				F8DE062B19E4CD03007CC376 /* CCTexturePVR.m in Sources */,
 				F8DE067B19E4CD04007CC376 /* ccUtils.c in Sources */,
+				F88F198A1A02C4530011CD52 /* Options.m in Sources */,
+				F88F19741A02C4230011CD52 /* Credits.m in Sources */,
+				F88F19881A02C4530011CD52 /* LevelSequence.m in Sources */,
 				F8DE05CC19E4CD03007CC376 /* CCLayer.m in Sources */,
 				F8DE062E19E4CD03007CC376 /* CCTileMapAtlas.m in Sources */,
 				F8DE063119E4CD03007CC376 /* CCTMXLayer.m in Sources */,
@@ -1015,18 +1285,25 @@
 				F8DE066019E4CD04007CC376 /* CCDirectorMac.m in Sources */,
 				F8DE05BA19E4CD03007CC376 /* ccGLStateCache.m in Sources */,
 				F8DE068C19E4CD04007CC376 /* TransformUtils.m in Sources */,
+				F88F19761A02C4230011CD52 /* Level0.m in Sources */,
 				F8DE05D919E4CD03007CC376 /* CCNode+Debug.m in Sources */,
+				F88F19651A02C3B30011CD52 /* Harpie.m in Sources */,
 				F8DE05B419E4CD02007CC376 /* ccFPSImages.m in Sources */,
 				F8DE063A19E4CD03007CC376 /* CCTMXXMLParser.m in Sources */,
 				F8DE06D119E4CD04007CC376 /* ray2.c in Sources */,
 				F8DE066C19E4CD04007CC376 /* base64.c in Sources */,
 				F8DE058F19E4CD02007CC376 /* CCActionTween.m in Sources */,
+				F88F19621A02C3B30011CD52 /* Goal.m in Sources */,
 				F8DE05C619E4CD03007CC376 /* CCLabelBMFont.m in Sources */,
 				F8DE070219E4CE5F007CC376 /* PauseScreen.m in Sources */,
 				F8DE067319E4CD04007CC376 /* ccCArray.m in Sources */,
 				F8DE069D19E4CD04007CC376 /* CDXMacOSXSupport.m in Sources */,
+				F88F198B1A02C4530011CD52 /* Score.m in Sources */,
 				F8DE069119E4CD04007CC376 /* ZipUtils.m in Sources */,
+				F88F19631A02C3B30011CD52 /* Gorgon.m in Sources */,
 				F8DE058319E4CD02007CC376 /* CCActionManager.m in Sources */,
+				F88F19731A02C4230011CD52 /* Complete.m in Sources */,
+				F88F19891A02C4530011CD52 /* Lives.m in Sources */,
 				F8DE06F619E4CE07007CC376 /* AudioScreen.m in Sources */,
 				F8DE06FF19E4CE50007CC376 /* QuitScreen.m in Sources */,
 				F8DE05EB19E4CD03007CC376 /* CCParticleSystemQuad.m in Sources */,
@@ -1049,6 +1326,7 @@
 				F8DE06CD19E4CD04007CC376 /* plane.c in Sources */,
 				F8DE067919E4CD04007CC376 /* CCProfiling.m in Sources */,
 				F8DE061019E4CD03007CC376 /* CCShaderCache.m in Sources */,
+				F88F19961A02C4660011CD52 /* SneakyButtonSkinnedBase.m in Sources */,
 				F8DE061619E4CD03007CC376 /* CCSprite.m in Sources */,
 				F8DE05BD19E4CD03007CC376 /* CCGrabber.m in Sources */,
 				F8DE06C719E4CD04007CC376 /* mat3.c in Sources */,
@@ -1066,7 +1344,10 @@
 				F8DE058919E4CD02007CC376 /* CCActionProgressTimer.m in Sources */,
 				F8DE056B19E4CD02007CC376 /* CCAction.m in Sources */,
 				F8DE06A319E4CD04007CC376 /* CocosDenshion.m in Sources */,
+				F88F19981A02C4660011CD52 /* SneakyJoystickSkinnedBase.m in Sources */,
 				F8DE062819E4CD03007CC376 /* CCTextureCache.m in Sources */,
+				F88F19751A02C4230011CD52 /* InterLevel.m in Sources */,
+				F88F19771A02C4230011CD52 /* Level1.m in Sources */,
 				F8DE06CB19E4CD04007CC376 /* neon_matrix_impl.c in Sources */,
 				F8DE05FB19E4CD03007CC376 /* CCScene.m in Sources */,
 				F8DE057A19E4CD02007CC376 /* CCActionGrid3D.m in Sources */,
@@ -1081,17 +1362,21 @@
 				F8DE05D619E4CD03007CC376 /* CCMotionStreak.m in Sources */,
 				F8DE065519E4CD04007CC376 /* CCGLView.m in Sources */,
 				F8DE068219E4CD04007CC376 /* CGPointExtension.m in Sources */,
+				F88F19641A02C3B30011CD52 /* Grace.m in Sources */,
 				F8DE06FC19E4CE2B007CC376 /* HighScoresScreen.m in Sources */,
 				F8DE058619E4CD02007CC376 /* CCActionPageTurn3D.m in Sources */,
 				F8DE06D719E4CD04007CC376 /* vec3.c in Sources */,
 				F8DE068919E4CD04007CC376 /* TGAlib.m in Sources */,
 				F8DE059219E4CD02007CC376 /* CCAnimation.m in Sources */,
 				F8DE06BD19E4CD04007CC376 /* aabb.c in Sources */,
+				F88F19721A02C4230011CD52 /* AbstractLevel.m in Sources */,
 				F8DE063419E4CD03007CC376 /* CCTMXObjectGroup.m in Sources */,
 				F8DE069619E4CD04007CC376 /* CDAudioManager.m in Sources */,
+				F88F19971A02C4660011CD52 /* SneakyJoystick.m in Sources */,
 				F8DE064319E4CD03007CC376 /* CCTransitionProgress.m in Sources */,
 				F8DE066619E4CD04007CC376 /* CCGLView.m in Sources */,
 				F8DE069A19E4CD04007CC376 /* CDOpenALSupport.m in Sources */,
+				F88F19611A02C3B30011CD52 /* Entity.m in Sources */,
 				F8DE057D19E4CD02007CC376 /* CCActionInstant.m in Sources */,
 				F8DE059E19E4CD02007CC376 /* CCClippingNode.m in Sources */,
 				F8DE062219E4CD03007CC376 /* CCTexture2D.m in Sources */,
@@ -1100,9 +1385,12 @@
 				F8DE058019E4CD02007CC376 /* CCActionInterval.m in Sources */,
 				F8DE05EE19E4CD03007CC376 /* CCPhysicsDebugNode.m in Sources */,
 				F8DE057419E4CD02007CC376 /* CCActionEase.m in Sources */,
+				F88F198C1A02C4530011CD52 /* SoundEffects.m in Sources */,
 				F8DE05B119E4CD02007CC376 /* CCFontDefinition.m in Sources */,
+				F88F19861A02C4530011CD52 /* GameController.m in Sources */,
 				F8DE05F119E4CD03007CC376 /* CCPhysicsSprite.mm in Sources */,
 				F8DE06D519E4CD04007CC376 /* vec2.c in Sources */,
+				F88F19951A02C4660011CD52 /* SneakyButton.m in Sources */,
 				F8DE06C519E4CD04007CC376 /* matrix.c in Sources */,
 				F8DE05AB19E4CD02007CC376 /* CCDrawingPrimitives.m in Sources */,
 				F8DE061319E4CD03007CC376 /* ccShaders.m in Sources */,
@@ -1113,9 +1401,11 @@
 				F8DE05C919E4CD03007CC376 /* CCLabelTTF.m in Sources */,
 				F8DE067619E4CD04007CC376 /* CCFileUtils.m in Sources */,
 				F8DE066319E4CD04007CC376 /* CCEventDispatcher.m in Sources */,
+				F88F19601A02C3B30011CD52 /* Enemy.m in Sources */,
 				F8DE061919E4CD03007CC376 /* CCSpriteBatchNode.m in Sources */,
 				F8DE05A219E4CD02007CC376 /* CCConfiguration.m in Sources */,
 				F8DE05FE19E4CD03007CC376 /* CCScheduler.m in Sources */,
+				F88F19871A02C4530011CD52 /* Helper.m in Sources */,
 				F8DE064E19E4CD04007CC376 /* CCDirectorIOS.m in Sources */,
 				F8DE05D019E4CD03007CC376 /* CCMenu.m in Sources */,
 				F8DE06D919E4CD04007CC376 /* vec4.c in Sources */,
@@ -1182,12 +1472,14 @@
 				GCC_PREFIX_HEADER = Cakeboy/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Cakeboy/libs/kazmath/include\"";
 				INFOPLIST_FILE = Cakeboy/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1201,12 +1493,14 @@
 				GCC_PREFIX_HEADER = Cakeboy/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Cakeboy/libs/kazmath/include\"";
 				INFOPLIST_FILE = Cakeboy/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

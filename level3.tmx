@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="alienYellow_stand" tilewidth="32" tileheight="32">
+  <image source="alienYellow_stand.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="everything" tilewidth="32" tileheight="32">
+  <image source="everything.png" width="448" height="224"/>
+ </tileset>
+ <tileset firstgid="100" name="tiles_spritesheet" tilewidth="32" tileheight="32" spacing="1">
+  <image source="tiles_spritesheet.png" width="418" height="428"/>
+ </tileset>
+ <layer name="Platform" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztllEKgCAMhne6QJ87VbfQA/Rep4sIQURlcyqb9MFeZOnPp1kWAKzgMkBjI/ZzMEDPt48IUgCbzyU1ixZ/Mynlm+2phBZ/UnylaPEX4+FzeVSew/T0QKO/FIpPh+ilsII/Lpyz+vvLg3Wq0V/8Lo6+33Lrxmtq9CeFE2TlG7W/I7/FkvzloObr9W/Dvf963zG+cZ7V9nc2b7YLUQHMWK2nZZ4bUQHMWK2ndR7J9QAVZYM/
+  </data>
+ </layer>
+ <layer name="Rewards" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJADAIBEAncP9xQ8gAgfBgkbtaLP7FKgC2Ds1wyAq48Sf+oOd5qQ4Se9wD8GoBxsUAcQ==
+  </data>
+ </layer>
+ <layer name="obstacles" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJADAIRFH3yWjZv0mVxlpFAlH5D64REbFQBACAGtbvBQbhlgCm48+91e2e3fZFHUcTqVk92TmerYnUrJ7snMouvUQRlA==
+  </data>
+ </layer>
+ <layer name="stalks" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0sENACAIBEG6tn07EOKZcJGdN+g+iAAAYJbVHZCgT0Ofxr0PeMX91if0Vd64/ae6d5qjT5tz6MNfNjQ3Cyk=
+  </data>
+ </layer>
+ <layer name="enemies" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzty7kNADAIBDDYf2kWiBQEHbLLeyIAAAAAdnKYvTad/vfjlgIfxAAH
+  </data>
+ </layer>
+ <layer name="powerups" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjERAAAIBCDDGcH+WYzwk+cCCagCAOBSfweC+Q4AAAQLZgsAmQ==
+  </data>
+ </layer>
+ <layer name="Clouds" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJACAMA8CO1f0ncwFfBcXIHeTfBFoFM71JspM90jdKv/81P/0NAADADQujVQPx
+  </data>
+ </layer>
+</map>

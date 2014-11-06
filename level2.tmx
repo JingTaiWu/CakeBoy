@@ -11,27 +11,32 @@
  </tileset>
  <layer name="Platform" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlDsOgCAQRLmJnZ2V8Qi2NN7/LmY7QgaD7EQX2JdMRzbD4xNDCNF4rOL9dLD7ncRZArvfRZwlsPutIBpmu39PtPh0f2VqfLq/epBPS/0Qeb8jCYvWmbK+N38l9iRfwvan3Ud+F0Y5XwTbFWJkf29p+Wdme79sUL+/XCF69GcJ6bYYz+ZR5QbEWTd4
+   eJztllEKgCAMQAedoFPUBTpC4H/3v0sEDYI2W7q5JT3YjxN9bKYlAEjBY4WYoN/mLcKAftMZi6/ODfSjOHznhi4UOb8IvPHDM9Cypj3Vj8K6npRfzZ7avtb9rfX1On9S796/Dy24evb0frT0xb2i9Jcjkh/VH0s/jfPgWT+Jf4lfbt2vvW9XStwlfk/rWt472v8v2kS6Xyh+vzoOt4EJRJqTjnE5bu7IBCLNSce4XG5u5NgBdBUmJw==
   </data>
  </layer>
  <layer name="Rewards" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0sERACAIAzAWcP91ffr3EPVIJoC2EQCwjNsH8JyTm7C3/2V12GkLu792yihDRV46AagzAep1AHY=
+   eJzt00ENADAIA0AMzL/dvaYAEiC7U9C0EAFkne4AlMjsuO0GtuV9tuaeSp+19Al/8OsAPS7NAABp
   </data>
  </layer>
- <layer name="Stalks" width="40" height="30">
+ <layer name="stalks" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzsENADAIAzGmZv4OgSLayv4HrgoAAP7Xy/v0fX27+/R9ffn95Ie++/t43wHoWAqb
-  </data>
- </layer>
- <layer name="CandyClouds" width="40" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt0bEJAEAIA0C3cv/NLL+xEr8Q7iCthBjBlmzy4+4lW70vb8DjhwAAAEwUDlkEFg==
+   eJzt0LERADAIA7FMnfkzAoULyCENgP84B4Cf3O6Agr6Mvp2m/3V7X3pf32zdfdW+vmxfX7avj0kedNML/Q==
   </data>
  </layer>
  <layer name="enemies" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJAEAIA0D3X9pfQLCweNC7PhDSJAIAoJe/CyxjTwCumHxelfWhNz0OMgT8
+   eJzty7EJAAAIBLHff2ldQcRGSNrjEgAAAIAbtWyTfvXwTwOioAP9
+  </data>
+ </layer>
+ <layer name="obstacles" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJADAIRFHnyWjZ3R3SWEa5SgP5D2w8CxtBM/xoTS8AAAAANJj4e/m1gT7KvXmUmqm9LKtmb3aUmqm9LKtmX3YAtD4QvQ==
+  </data>
+ </layer>
+ <layer name="Clouds" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJADAQAkC3+v03S5s21Ue4AysbMWHDXHnpfta2e7K7ue2vdr4GAADodQAp8gPf
   </data>
  </layer>
 </map>

@@ -30,9 +30,6 @@
 		F88F19961A02C4660011CD52 /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19901A02C4660011CD52 /* SneakyButtonSkinnedBase.m */; };
 		F88F19971A02C4660011CD52 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19921A02C4660011CD52 /* SneakyJoystick.m */; };
 		F88F19981A02C4660011CD52 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F19941A02C4660011CD52 /* SneakyJoystickSkinnedBase.m */; };
-		F88F199C1A02C4990011CD52 /* backg.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F88F19991A02C4990011CD52 /* backg.tmx */; };
-		F88F199D1A02C4990011CD52 /* level0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F88F199A1A02C4990011CD52 /* level0.tmx */; };
-		F88F199E1A02C4990011CD52 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F88F199B1A02C4990011CD52 /* level1.tmx */; };
 		F88F19A81A02C4CA0011CD52 /* dpadDown3.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F199F1A02C4CA0011CD52 /* dpadDown3.png */; };
 		F88F19A91A02C4CA0011CD52 /* goal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A01A02C4CA0011CD52 /* goal_2.png */; };
 		F88F19AA1A02C4CA0011CD52 /* gorgon.png in Resources */ = {isa = PBXBuildFile; fileRef = F88F19A11A02C4CA0011CD52 /* gorgon.png */; };
@@ -54,6 +51,11 @@
 		F88F19C51A02C5250011CD52 /* you-need-to-grow-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19BA1A02C5250011CD52 /* you-need-to-grow-up.mp3 */; };
 		F88F19C61A02C5250011CD52 /* yummy2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19BB1A02C5250011CD52 /* yummy2.mp3 */; };
 		F88F19C81A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88F19C71A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 */; };
+		F89623901A0C0E7B00709050 /* backg.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F896238D1A0C0E7B00709050 /* backg.tmx */; };
+		F89623911A0C0E7B00709050 /* level0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F896238E1A0C0E7B00709050 /* level0.tmx */; };
+		F89623921A0C0E7B00709050 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F896238F1A0C0E7B00709050 /* level1.tmx */; };
+		F89623941A0C102700709050 /* everything.png in Resources */ = {isa = PBXBuildFile; fileRef = F89623931A0C102700709050 /* everything.png */; };
+		F89623961A0C108F00709050 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F89623951A0C108F00709050 /* bg.png */; };
 		F8DE053B19E4CD02007CC376 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DE053A19E4CD02007CC376 /* QuartzCore.framework */; };
 		F8DE053D19E4CD02007CC376 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DE053C19E4CD02007CC376 /* OpenGLES.framework */; };
 		F8DE053F19E4CD02007CC376 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DE053E19E4CD02007CC376 /* OpenAL.framework */; };
@@ -246,9 +248,6 @@
 		F88F19921A02C4660011CD52 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystick.m; sourceTree = "<group>"; };
 		F88F19931A02C4660011CD52 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
 		F88F19941A02C4660011CD52 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
-		F88F19991A02C4990011CD52 /* backg.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = backg.tmx; sourceTree = "<group>"; };
-		F88F199A1A02C4990011CD52 /* level0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level0.tmx; sourceTree = "<group>"; };
-		F88F199B1A02C4990011CD52 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
 		F88F199F1A02C4CA0011CD52 /* dpadDown3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadDown3.png; sourceTree = "<group>"; };
 		F88F19A01A02C4CA0011CD52 /* goal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goal_2.png; sourceTree = "<group>"; };
 		F88F19A11A02C4CA0011CD52 /* gorgon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorgon.png; sourceTree = "<group>"; };
@@ -270,6 +269,11 @@
 		F88F19BA1A02C5250011CD52 /* you-need-to-grow-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-need-to-grow-up.mp3"; sourceTree = "<group>"; };
 		F88F19BB1A02C5250011CD52 /* yummy2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yummy2.mp3; sourceTree = "<group>"; };
 		F88F19C71A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4225775_The_River_War_Original_Mix.mp3; sourceTree = "<group>"; };
+		F896238D1A0C0E7B00709050 /* backg.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = backg.tmx; sourceTree = "<group>"; };
+		F896238E1A0C0E7B00709050 /* level0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level0.tmx; sourceTree = "<group>"; };
+		F896238F1A0C0E7B00709050 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		F89623931A0C102700709050 /* everything.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = everything.png; sourceTree = "<group>"; };
+		F89623951A0C108F00709050 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		F8DE053719E4CD02007CC376 /* Cakeboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cakeboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DE053A19E4CD02007CC376 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F8DE053C19E4CD02007CC376 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -635,9 +639,9 @@
 		F88F194F1A02C3620011CD52 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				F88F19991A02C4990011CD52 /* backg.tmx */,
-				F88F199A1A02C4990011CD52 /* level0.tmx */,
-				F88F199B1A02C4990011CD52 /* level1.tmx */,
+				F896238D1A0C0E7B00709050 /* backg.tmx */,
+				F896238E1A0C0E7B00709050 /* level0.tmx */,
+				F896238F1A0C0E7B00709050 /* level1.tmx */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
@@ -664,6 +668,8 @@
 		F88F19511A02C3720011CD52 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F89623951A0C108F00709050 /* bg.png */,
+				F89623931A0C102700709050 /* everything.png */,
 				F88F199F1A02C4CA0011CD52 /* dpadDown3.png */,
 				F88F19A01A02C4CA0011CD52 /* goal_2.png */,
 				F88F19A11A02C4CA0011CD52 /* gorgon.png */,
@@ -1228,9 +1234,9 @@
 			files = (
 				F88F19AB1A02C4CA0011CD52 /* grace.png in Resources */,
 				F88F19C51A02C5250011CD52 /* you-need-to-grow-up.mp3 in Resources */,
-				F88F199E1A02C4990011CD52 /* level1.tmx in Resources */,
 				F88F19AC1A02C4CA0011CD52 /* harpie.png in Resources */,
 				F88F19A91A02C4CA0011CD52 /* goal_2.png in Resources */,
+				F89623941A0C102700709050 /* everything.png in Resources */,
 				F88F19AD1A02C4CA0011CD52 /* joystickDown.png in Resources */,
 				F88F19B01A02C4CA0011CD52 /* tiles_mga.png in Resources */,
 				F88F19BD1A02C5250011CD52 /* blip2.mp3 in Resources */,
@@ -1240,10 +1246,13 @@
 				F88F19BF1A02C5250011CD52 /* cheer2.mp3 in Resources */,
 				F8DE055319E4CD02007CC376 /* Default@2x.png in Resources */,
 				F88F19A81A02C4CA0011CD52 /* dpadDown3.png in Resources */,
+				F89623961A0C108F00709050 /* bg.png in Resources */,
 				F88F19BE1A02C5250011CD52 /* bonus.mp3 in Resources */,
+				F89623901A0C0E7B00709050 /* backg.tmx in Resources */,
 				F88F19AF1A02C4CA0011CD52 /* sky_160.png in Resources */,
 				F8DE055D19E4CD02007CC376 /* Icon-Small.png in Resources */,
 				F88F19C41A02C5250011CD52 /* you-got-it-1.mp3 in Resources */,
+				F89623921A0C0E7B00709050 /* level1.tmx in Resources */,
 				F8DE055919E4CD02007CC376 /* Icon-72.png in Resources */,
 				F8DE055119E4CD02007CC376 /* Default.png in Resources */,
 				F88F19C21A02C5250011CD52 /* wow.mp3 in Resources */,
@@ -1251,14 +1260,13 @@
 				F8DE055B19E4CD02007CC376 /* Icon-Small-50.png in Resources */,
 				F88F19C31A02C5250011CD52 /* you-can-do-it.mp3 in Resources */,
 				F8DE056619E4CD02007CC376 /* iTunesArtwork in Resources */,
+				F89623911A0C0E7B00709050 /* level0.tmx in Resources */,
 				F88F19C81A02C5330011CD52 /* 4225775_The_River_War_Original_Mix.mp3 in Resources */,
 				F88F19C61A02C5250011CD52 /* yummy2.mp3 in Resources */,
 				F8DE055F19E4CD02007CC376 /* Icon-Small@2x.png in Resources */,
-				F88F199C1A02C4990011CD52 /* backg.tmx in Resources */,
 				F88F19AA1A02C4CA0011CD52 /* gorgon.png in Resources */,
 				F8DE055719E4CD02007CC376 /* Default-Landscape~ipad.png in Resources */,
 				F88F19C01A02C5250011CD52 /* evil-laf.mp3 in Resources */,
-				F88F199D1A02C4990011CD52 /* level0.tmx in Resources */,
 				F88F19AE1A02C4CA0011CD52 /* quit-button2.png in Resources */,
 				F8DE055519E4CD02007CC376 /* Default-568h@2x.png in Resources */,
 				F8DE056319E4CD02007CC376 /* Icon@2x.png in Resources */,

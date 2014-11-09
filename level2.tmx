@@ -9,12 +9,12 @@
  <tileset firstgid="255" name="alienYellow_stand" tilewidth="32" tileheight="32">
   <image source="alienYellow_stand.png" width="32" height="32"/>
  </tileset>
- <layer name="Platform" width="40" height="30">
+ <layer name="platforms" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztllEKgCAMQAedoFPUBTpC4H/3v0sEDYI2W7q5JT3YjxN9bKYlAEjBY4WYoN/mLcKAftMZi6/ODfSjOHznhi4UOb8IvPHDM9Cypj3Vj8K6npRfzZ7avtb9rfX1On9S796/Dy24evb0frT0xb2i9Jcjkh/VH0s/jfPgWT+Jf4lfbt2vvW9XStwlfk/rWt472v8v2kS6Xyh+vzoOt4EJRJqTjnE5bu7IBCLNSce4XG5u5NgBdBUmJw==
+   eJzdlmEKgCAMRoVO0CnyAh0h8H8/uv9NImgQ1bdmObd8MAIn+ZjTSiGE5Dym4BPym61FAOQ37DHa6lwgvzs237g/reD8PJDjRz0Q9XQutFS/MzXqeef3dk0NX839LeFr0X853i2fj1Jw9Wzp+1Hzbqa1POwvhxc/1IPa99/X/rWsn8T/jR/33tJnvmb9jv0l9Zf4PdVE897xcn4R6P+Kwpo/1W+xFAFsbh0IQpqTjqEcmtuDIKQ56RjKcXM9xwpTWCjG
   </data>
  </layer>
- <layer name="Rewards" width="40" height="30">
+ <layer name="rewards" width="40" height="30">
   <data encoding="base64" compression="zlib">
    eJzt00ENADAIA0AMzL/dvaYAEiC7U9C0EAFkne4AlMjsuO0GtuV9tuaeSp+19Al/8OsAPS7NAABp
   </data>
@@ -26,15 +26,15 @@
  </layer>
  <layer name="enemies" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzty7EJAAAIBLHff2ldQcRGSNrjEgAAAIAbtWyTfvXwTwOioAP9
+   eJzt1EEKACAIRFFP4KXq/meKdiHNJoJC/1saipCMGQDk014vAOArLuq3skLNR17zz0/uh1sBkNWabz3U45vKQg+9u9moawCTQAIi
   </data>
  </layer>
  <layer name="obstacles" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1rEJADAIRFHnyWjZ3R3SWEa5SgP5D2w8CxtBM/xoTS8AAAAANJj4e/m1gT7KvXmUmqm9LKtmb3aUmqm9LKtmX3YAtD4QvQ==
+   eJzt1rENACAIBEDncSP3X8TGVkMFRu8SGp6ChoTW+FGvXgAAABJU/L1+bcjzwr2NVdEs2ttlp9mbTc/ABNU=
   </data>
  </layer>
- <layer name="Clouds" width="40" height="30">
+ <layer name="clouds" width="40" height="30">
   <data encoding="base64" compression="zlib">
    eJzt0LEJADAQAkC3+v03S5s21Ue4AysbMWHDXHnpfta2e7K7ue2vdr4GAADodQAp8gPf
   </data>

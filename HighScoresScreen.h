@@ -10,7 +10,10 @@
 #import "cocos2d.h"
 
 @interface HighScoresScreen : CCLayer
+
++(NSMutableArray*) getHighScores;
 +(CCScene *) scene;
 -(id) init;
 -(void) onBack: (CCMenuItemFont*) button;
+
 @end

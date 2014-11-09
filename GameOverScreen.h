@@ -12,5 +12,5 @@
 @interface GameOverScreen : CCLayer
 +(CCScene *) scene;
 -(id) init;
--(void) onBack: (CCMenuItemFont*) button;
+-(void) onContinue: (CCMenuItemFont*) button;
 @end

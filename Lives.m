@@ -11,7 +11,7 @@
 #import "Helper.h"
 
 
-#define NUM_LIVES 3
+#define NUM_LIVES 2
 #define SCALE 2
 #define BLOCK_SIZE TOPOINT(16)
 #define GAP 2

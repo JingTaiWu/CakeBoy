@@ -19,4 +19,6 @@
 
 /** Gets the number of levels */
 + (int) numberOfLevels;
+
++ (void) setLevel: (int) level;
 @end

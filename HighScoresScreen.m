@@ -8,8 +8,16 @@
 
 #import "HighScoresScreen.h"
 
-
 @implementation HighScoresScreen : CCLayer
+
++(NSMutableArray *)getHighScores {
+    static NSMutableArray* highScores = nil;
+    if(highScores == nil) {
+        highScores = [[NSMutableArray alloc] init];
+    }
+    
+    return highScores;
+}
 
 +(CCScene *) scene
 {

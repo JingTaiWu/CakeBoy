@@ -7,6 +7,10 @@
 //
 
 #import "GameOverScreen.h"
+#import "MainScreen.h"
+#import "HighScoresScreen.h"
+#import "Score.h"
+#import "LevelSequence.h"
 
 
 @implementation GameOverScreen : CCLayer
@@ -33,24 +37,66 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        CCMenuItem *backButton =
-        [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
+        // Center Text
+        // Add the text
+        // create and initialize a Label
+        NSString* text = @"Game Over!";
         
-        CCMenu *menu = [CCMenu menuWithItems:backButton,nil];
+        CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:30 dimensions: CGSizeMake(400,100) hAlignment:UITextAlignmentCenter];
+        
+        [label setColor:ccc3(0, 255, 0)];
+        
+        // position the label on the center of the screen
+        label.position =  ccp( screenWidth /2 , screenHeight/2 );
+        
+        // add the label as a child to this Layer
+        [self addChild: label];
+        
+        CCMenuItem *continueButton =
+        [CCMenuItemFont itemWithString:@"Continue" target:self selector:@selector(onContinue:)];
+        
+        CCMenu *menu = [CCMenu menuWithItems: continueButton, nil];
         
         [menu alignItemsVertically];
         
         [menu setPosition:ccp(screenWidth / 2, screenHeight*0.25f)];
         // Add the menu to the layer
         [self addChild:menu];
+        
+        [LevelSequence setLevel: 0];
     }
     
     return self;
 }
 
--(void)onBack:(CCMenuItemFont *)button {
+-(void)onContinue:(CCMenuItemFont *)button {
     // Goes back to the previous screen
     [[CCDirector sharedDirector] popScene];
+//    NSInteger endingScore = @([Score score]);
+//    NSMutableArray* highscores = [HighScoresScreen getHighScores];
+//    // check to see if it is a new high score
+//    BOOL isNewHighScore = false;
+//    // sort the array
+//    [highscores sortedArrayUsingSelector:@selector(compare:)];
+//    for(int i = 0; i < [highscores count]; i++) {
+//        if(endingScore < [[highscores objectAtIndex:i] integerValue]) {
+//            isNewHighScore = false;
+//        } else {
+//            isNewHighScore = true;
+//        }
+//    }
+//    // add the current score to the list of scores
+//    [highscores addObject:endingScore];
+//    // If it is a high score, push the high score screen
+//    if(isNewHighScore) {
+//        [[CCDirector sharedDirector] pushScene:[HighScoresScreen scene]];
+//    } else {
+//        // if not, go back to the main screen
+//        [[CCDirector sharedDirector] pushScene:[MainScreen scene]];
+//    }
 }
 
+-(NSComparisonResult)compare:(NSInteger*)otherObject {
+    return [self compare:otherObject];
+}
 @end

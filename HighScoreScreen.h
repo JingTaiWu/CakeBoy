@@ -8,9 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "HighScoresScreen.h"
 
 @interface HighScoreScreen : CCLayer {
     
 }
+
++(CCScene *) scene;
+-(id) init;
+-(void) onContinue: (CCMenuItemFont*) button;
 
 @end

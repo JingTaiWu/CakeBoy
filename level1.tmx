@@ -9,29 +9,29 @@
  <tileset firstgid="255" name="alienYellow_stand" tilewidth="32" tileheight="32">
   <image source="alienYellow_stand.png" width="32" height="32"/>
  </tileset>
- <layer name="Platform" width="40" height="30">
+ <layer name="platforms" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlDsOgCAQRLmJnZ2V8Qi2NN7/LmY7QgaD7EQX2JdMRzbD4xNDCNF4rOL9dLD7ncRZArvfRZwlsPutIBpmu39PtPh0f2VqfLq/epBPS/0Qeb8jCYvWmbK+N38l9iRfwvan3Ud+F0Y5XwTbFWJkf29p+Wdme79sUL+/XCF69GcJ6bYYz+ZR5QbEWTd4
+   eJztlDsKwCAQRL1JunSpQo6Q1iaB3P8mYTuRVYw76Gr2wXSyjM+Pd8555dGK9ZOB7ncCZxHofhdwFoHutzKR8Lf7l6PGp/lLU+LT/JXD+dTUjyPudwRBUTuT1o/mL8UepCVof9J9xHdhlvPlQLvimNnfV2r+mRHf7924Qw6uXy9XHCO9j6dnkQTUbVGezSLKCwWOOCM=
   </data>
  </layer>
- <layer name="Rewards" width="40" height="30">
+ <layer name="rewards" width="40" height="30">
   <data encoding="base64" compression="zlib">
    eJzt0sERACAIAzAWcP91ffr3EPVIJoC2EQCwjNsH8JyTm7C3/2V12GkLu792yihDRV46AagzAep1AHY=
   </data>
  </layer>
- <layer name="Stalks" width="40" height="30">
+ <layer name="stalks" width="40" height="30">
   <data encoding="base64" compression="zlib">
    eJztzsENADAIAzGmZv4OgSLayv4HrgoAAP7Xy/v0fX27+/R9ffn95Ie++/t43wHoWAqb
   </data>
  </layer>
- <layer name="CandyClouds" width="40" height="30">
+ <layer name="clouds" width="40" height="30">
   <data encoding="base64" compression="zlib">
    eJzt0bEJAEAIA0C3cv/NLL+xEr8Q7iCthBjBlmzy4+4lW70vb8DjhwAAAEwUDlkEFg==
   </data>
  </layer>
  <layer name="enemies" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJAEAIA0D3X9pfQLCweNC7PhDSJAIAoJe/CyxjTwCumHxelfWhNz0OMgT8
+   eJzt1cEJwCAMBVAncKlm/5nEmw0UC6H18t4thx8hEdIaAHBCL2Svn95ac1How92cY6S60it7+h/2B8AXdvclUt1fZNas+8U0AIGYAj8=
   </data>
  </layer>
 </map>

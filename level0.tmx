@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztl9ENgCAMBbsJI7iFYQD3n8X4QTTEVqiUPKCXvP/LBQNGIorgQ0Xjt1uIMGj8DgsRBo1feMyaGc/fG1ZNV+mXE6hN01X7SdR09X5lcD1R/DhQ/VJPVL8Egp/0PSP4SfT2q71TZu/31cPv35vSs9PyHThqv57/GBKj9kPhcsvf4mjbfL92AnOTMl8=
+   eJztl9EJwCAMBbOJI3SL4gCF7r9J8UMqYlK1xr6qB/k/DkVjiciCDyo1fruGCEON36EhwlDjZ4LRZsTzl0Kr6Sz9Ygy1aTprP4mSrqtfHlxPFD8OVD/fE9XPg+An3WcEP4nefqVvyuj9nnqs9/cm9+y0/Af+tV/PHUMCuZ/bY0O/80OXFG6PdW7xXxxttjWv5gKbyTNQ
   </data>
  </layer>
  <layer name="rewards" width="40" height="30">
@@ -13,7 +13,7 @@
    eJzt0LEJACAMAMEs4P7rWlilEUWDIHcTPB8BVGqvAz7jZx1v7/P0Pk/3+LXOq2z2w6ts5Ydngw/AiQ6QdwCd
   </data>
  </layer>
- <layer name="cloud" width="40" height="30">
+ <layer name="clouds" width="40" height="30">
   <data encoding="base64" compression="zlib">
    eJzt0rEJAEAIBEHL+v4rMzd5zDyYARvwtopkbxxcpVWu2Lao3T8/ymU7ACBFA5sABUE=
   </data>

@@ -12,11 +12,11 @@
 
 #define RID_NO_TILE 0
 #define RID_WALL 1
-#define RID_GRACE 2
-#define RID_GORGON 45
-#define RID_HARPIE 53
-#define RID_GOAL 60
-#define RID_ENEMY_BLOCK 61
+#define RID_GRACE 87
+#define RID_GORGON 68
+#define RID_HARPIE 67
+#define RID_GOAL 84
+#define RID_ENEMY_BLOCK 14
 #define RID_MUSHROOM_SMALL 9
 #define RID_MUSHROOM_BIG 56
 #define RID_GROUND 34

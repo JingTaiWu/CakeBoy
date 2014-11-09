@@ -9,6 +9,8 @@
 #import "LevelSequence.h"
 #import "Level0.h"
 #import "Level1.h"
+#import "Level2.h"
+#import "Level3.h"
 
 static NSMutableArray* levels;
 static int levelno = 0;
@@ -19,14 +21,17 @@ static int levelno = 0;
         [[NSMutableArray alloc] initWithObjects:
          [Level0 class],
          [Level1 class],
+         [Level2 class],
+         [Level3 class],
          nil];
 }
 
 + (Class) nextLevel {
-	if(levelno >= [levels count])
-		return nil;
-	
-	Class alevel = [levels objectAtIndex:levelno++];
+	if(levelno >= [levels count] + 1) {
+        levelno = 0;
+    }
+        
+    Class alevel = [levels objectAtIndex:levelno++];
     
 	return alevel;
 }
@@ -39,4 +44,7 @@ static int levelno = 0;
 	return [levels count];
 }
 
++ (void) setLevel: (int) level {
+    levelno = level;
+}
 @end

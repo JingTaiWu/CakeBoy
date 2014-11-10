@@ -8,7 +8,7 @@
 
 #import "GameOverScreen.h"
 #import "MainScreen.h"
-#import "HighScoresScreen.h"
+#import "HighScoreScreen.h"
 #import "Score.h"
 #import "LevelSequence.h"
 
@@ -71,7 +71,7 @@
 
 -(void)onContinue:(CCMenuItemFont *)button {
     // Goes back to the previous screen
-    [[CCDirector sharedDirector] popScene];
+    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:2.0 scene:[HighScoreScreen scene]]];
 //    NSInteger endingScore = @([Score score]);
 //    NSMutableArray* highscores = [HighScoresScreen getHighScores];
 //    // check to see if it is a new high score

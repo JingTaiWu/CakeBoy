@@ -8,6 +8,7 @@
 
 #import "HighScoreScreen.h"
 #import "MainScreen.h"
+#import "Score.h"
 
 @implementation HighScoreScreen
 
@@ -37,7 +38,9 @@
         // Center Text
         // Add the text
         // create and initialize a Label
-        NSString* text = @"You have a new high score!";
+        NSNumber* score = @([Score score]);
+        NSString* text = @"Your New High Score";
+        text = [text stringByAppendingString:[score stringValue]];
         
         CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:30 dimensions: CGSizeMake(400,100) hAlignment:UITextAlignmentCenter];
         

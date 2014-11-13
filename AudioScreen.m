@@ -7,7 +7,8 @@
 //
 
 #import "AudioScreen.h"
-
+#import "SimpleAudioEngine.h"
+#import "Options.h"
 
 @implementation AudioScreen : CCLayer
 
@@ -35,13 +36,15 @@
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
         // Add the buttons to the menu
-        CCMenuItem *audioButton =
-        [CCMenuItemFont itemWithString:@"Audio On/Off" target:self selector:@selector(toggleSound:)];
+        CCMenuItem *audioOn =
+        [CCMenuItemFont itemWithString:@"Audio On" target:self selector:@selector(toggleSoundOn:)];
+        CCMenuItem *audioOff =
+        [CCMenuItemFont itemWithString:@"Audio Off" target:self selector:@selector(toggleSoundOff:)];
         
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
         
-        CCMenu *menu = [CCMenu menuWithItems:audioButton, backButton,nil];
+        CCMenu *menu = [CCMenu menuWithItems:audioOn, audioOff, backButton,nil];
         
         [menu alignItemsVertically];
         
@@ -58,6 +61,15 @@
     [[CCDirector sharedDirector] popScene];
 }
 
--(void)toggleSound:(CCMenuItemFont *)button {
+-(void)toggleSoundOn:(CCMenuItemFont *)button {
+    //[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"4225775_The_River_War_Original_Mix.mp3" loop:true];
+    [Options enableMusic:true];
+    [Options enableSounds:true];
+}
+
+-(void)toggleSoundOff:(CCMenuItemFont *)button {
+    //[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    [Options enableMusic:true];
+    [Options enableSounds:false];
 }
 @end

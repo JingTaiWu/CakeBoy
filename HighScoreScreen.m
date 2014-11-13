@@ -38,34 +38,20 @@
         // Center Text
         // Add the text
         // create and initialize a Label
-        NSNumber* score = @([Score score]);
         NSString* text = @"Your New High Score";
-        text = [text stringByAppendingString:[score stringValue]];
         
         CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:30 dimensions: CGSizeMake(400,100) hAlignment:UITextAlignmentCenter];
         
         [label setColor:ccc3(0, 255, 0)];
         
         // position the label on the center of the screen
-        label.position =  ccp( screenWidth /2 , screenHeight/0.5 );
+        label.position =  ccp( screenWidth /2 , screenHeight/2 );
         
         // add the label as a child to this Layer
         [self addChild: label];
         
-        // display the top 3 high scores
-        NSMutableArray* highscores = [HighScoresScreen getHighScores];
-        NSMutableArray* scores = [[NSMutableArray alloc] init];
-        int count = 1;
-        for(int i = [highscores count] - 1; i >=0; i--) {
-            if(count > 3) break;
-            NSString* score = [[highscores objectAtIndex:i] stringByAppendingString:@("")];
-            CCMenuItem* tempLabel = [CCMenuItemFont itemWithString:score target:self selector:@selector(onBack:)];
-            [scores addObject:tempLabel];
-            count++;
-        }
-        
         CCMenuItem *continueButton =
-        [CCMenuItemFont itemWithString:@"Continue" target:self selector:@selector(onBack:)];
+        [CCMenuItemFont itemWithString:@"Continue" target:self selector:@selector(onContinue:)];
         
         CCMenu *menu = [CCMenu menuWithItems: continueButton, nil];
         
@@ -81,7 +67,7 @@
 
 -(void)onContinue:(CCMenuItemFont *)button {
     // Goes back to the previous screen
-    [[CCDirector sharedDirector] pushScene:[MainScreen scene]];
+    [[CCDirector sharedDirector] popScene];
 }
 
 @end

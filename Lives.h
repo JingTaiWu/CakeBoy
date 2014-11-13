@@ -26,4 +26,7 @@
 
 /** Updates the lives */
 - (void) update;
+
+/** Set the number of lives */
++ (void) setLives: (int) num;
 @end

@@ -74,6 +74,9 @@ static CCLayer* lives = nil;
     }
 }
 
++ (void) setLives: (int) num {
+    value = num;
+}
 - (void) update {
     
 }

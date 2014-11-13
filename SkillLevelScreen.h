@@ -13,5 +13,4 @@
 +(CCScene *) scene;
 -(id) init;
 -(void) onBack: (CCMenuItemFont*) button;
--(void) toggleDifficulty: (CCMenuItemFont*) button;
 @end

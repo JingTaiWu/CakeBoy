@@ -13,7 +13,7 @@
 #import "Level3.h"
 
 static NSMutableArray* levels;
-static int levelno = 0;
+static int levelno = 1;
 
 @implementation LevelSequence
 + (void) initialize {

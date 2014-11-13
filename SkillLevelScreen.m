@@ -7,6 +7,7 @@
 //
 
 #import "SkillLevelScreen.h"
+#import "Lives.h"
 
 
 @implementation SkillLevelScreen : CCLayer
@@ -49,13 +50,13 @@
         
         // Add the buttons to the menu
         CCMenuItem *beginnerButton =
-        [CCMenuItemFont itemWithString:@"Beginner" target:self selector:@selector(toggleDifficulty:)];
+        [CCMenuItemFont itemWithString:@"Beginner" target:self selector:@selector(toggleBeginner:)];
         
         CCMenuItem *interButton =
-        [CCMenuItemFont itemWithString:@"Intermediate" target:self selector:@selector(toggleDifficulty:)];
+        [CCMenuItemFont itemWithString:@"Intermediate" target:self selector:@selector(toggleInter:)];
         
         CCMenuItem *difficultButton =
-        [CCMenuItemFont itemWithString:@"Difficult" target:self selector:@selector(toggleDifficulty:)];
+        [CCMenuItemFont itemWithString:@"Difficult" target:self selector:@selector(toggleDifficult:)];
         
         CCMenuItem *backButton =
         [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
@@ -77,7 +78,15 @@
     [[CCDirector sharedDirector] popScene];
 }
 
--(void)toggleDifficulty:(CCMenuItemFont *)button {
+-(void)toggleBeginner:(CCMenuItemFont *)button {
+    [Lives setLives:5];
 }
 
+-(void)toggleInter:(CCMenuItemFont *)button {
+    [Lives setLives:3];
+}
+
+-(void)toggleDifficult:(CCMenuItemFont *)button {
+    [Lives setLives:1];
+}
 @end

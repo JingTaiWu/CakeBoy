@@ -14,7 +14,7 @@
 #define RID_JELLO 42
 #define RID_SPIKES 89
 @interface Level2 : Level1 {
-    
+    CCTMXLayer* obstacleLayer;
 }
 
 /** Gets a scene for this layer */
@@ -26,5 +26,12 @@
 /** Initializes the world */
 - (void) initWorld;
 
+/** Handles PC-rewards collisions */
+- (void) handlePCObstacleCollision;
 
+- (bool) isSpike: (int) gid;
+
+- (bool) isJello: (int) gid;
+
+- (void) update:(ccTime)dt;
 @end

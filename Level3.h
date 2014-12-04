@@ -10,8 +10,10 @@
 #import "cocos2d.h"
 #import "Level2.h"
 
+#define RID_POWER_UP 61
+
 @interface Level3 : Level2 {
-    
+    CCTMXLayer* powerUpLayer;
 }
 
 /** Gets a scene for this layer */
@@ -23,4 +25,9 @@
 /** Initializes the world */
 - (void) initWorld;
 
+- (BOOL) isPowerUp: (int) gid;
+
+- (void) handlePowerUpCollision;
+
+- (void) update:(ccTime)dt;
 @end

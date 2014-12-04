@@ -53,6 +53,9 @@
         CCMenuItem *continueButton =
         [CCMenuItemFont itemWithString:@"Continue" target:self selector:@selector(onContinue:)];
         
+        CCMenuItem *highScore =
+        [CCMenuItemFont itemWithString:@"Continue" target:self selector:@selector(onContinue:)];
+        
         CCMenu *menu = [CCMenu menuWithItems: continueButton, nil];
         
         [menu alignItemsVertically];

@@ -30,11 +30,70 @@
 - (id) init {
     if([self isMemberOfClass:[Level2 class]])
         world = [CCTMXTiledMap tiledMapWithTMXFile:@"level2.tmx"];
+    
+    obstacleLayer = [world layerNamed:@"obstacles"];
+    
     self = [super init];
 	return self;
 }
 
 -(void)initWorld {
     [super initWorld];
+}
+
+-(void)handlePCObstacleCollision {
+    //	CGPoint gracePos = [grace position];
+	
+	int x = grace.x;
+	int y = grace.y;
+    
+    //    CGPoint contact = [Helper worldToTileX:x andY:y];
+    CGPoint contact = [Helper world:world toTile:ccp(x,y)];
+	
+	int gid = [obstacleLayer tileGIDAt:contact];
+	
+	if(gid == 0) {
+		x += world.tileSize.width;
+		
+        //		contact = [Helper worldToTileX:x andY:y];
+        contact = [Helper world:world toTile:ccp(x,y)];
+		
+		gid = [obstacleLayer tileGIDAt:contact];
+	} else if([self isSpike:gid]) {
+        caught = true;
+    } else if([self isJello:gid]) {
+        caught = true;
+    }
+}
+
+-(bool)isSpike:(int)gid {
+    if (gid == RID_SPIKES) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+-(bool) isJello:(int)gid {
+    if (gid == RID_JELLO) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+-(void)update:(ccTime)dt {
+    if(caught || complete)
+        return;
+    
+    [super update:dt];
+    
+    if([grace collidesWith: obstacleLayer]) {
+        [self handlePCObstacleCollision];
+    }
+    
+    if(caught)
+        [self handlePCCaught];
 }
 @end

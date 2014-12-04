@@ -30,6 +30,9 @@
 - (id) init {
     if([self isMemberOfClass:[Level3 class]])
         world = [CCTMXTiledMap tiledMapWithTMXFile:@"level3.tmx"];
+    
+    powerUpLayer = [world layerNamed:@"powerups"];
+    
     self = [super init];
 	return self;
 }
@@ -38,4 +41,48 @@
     [super initWorld];
 }
 
+-(BOOL)isPowerUp: (int) gid {
+    if(gid == RID_POWER_UP) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+-(void)update:(ccTime)dt {
+    if(caught || complete)
+        return;
+    
+    [super update:dt];
+    
+    if([grace collidesWith: powerUpLayer]) {
+        [self handlePCObstacleCollision];
+    }
+    
+    if(caught)
+        [self handlePCCaught];
+}
+
+-(void)handlePowerUpCollision {
+    //	CGPoint gracePos = [grace position];
+	
+	int x = grace.x;
+	int y = grace.y;
+    
+    //    CGPoint contact = [Helper worldToTileX:x andY:y];
+    CGPoint contact = [Helper world:world toTile:ccp(x,y)];
+	
+	int gid = [powerUpLayer tileGIDAt:contact];
+	
+	if(gid == 0) {
+		x += world.tileSize.width;
+		
+        //		contact = [Helper worldToTileX:x andY:y];
+        contact = [Helper world:world toTile:ccp(x,y)];
+		
+		gid = [powerUpLayer tileGIDAt:contact];
+	} else if([self isPowerUp:gid]) {
+        [enemies removeAllObjects];
+    }
+}
 @end

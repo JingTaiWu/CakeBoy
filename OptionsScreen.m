@@ -70,7 +70,7 @@
 
 -(void)onHighScore:(CCMenuItemFont *)button {
     // Goes to the high score screen
-    [[CCDirector sharedDirector] pushScene:[HighScoresScreen scene]];
+    [[CCDirector sharedDirector] pushScene:[HighScoreScreen scene]];
 }
 
 -(void)onSkillLevel:(CCMenuItemFont *)button {

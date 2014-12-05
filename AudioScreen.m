@@ -62,13 +62,13 @@
 }
 
 -(void)toggleSoundOn:(CCMenuItemFont *)button {
-    //[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"4225775_The_River_War_Original_Mix.mp3" loop:true];
+    [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"4225775_The_River_War_Original_Mix.mp3" loop:true];
     [Options enableMusic:true];
     [Options enableSounds:true];
 }
 
 -(void)toggleSoundOff:(CCMenuItemFont *)button {
-    //[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
     [Options enableMusic:true];
     [Options enableSounds:false];
 }

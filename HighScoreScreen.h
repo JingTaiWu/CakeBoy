@@ -11,7 +11,7 @@
 #import "HighScoresScreen.h"
 
 @interface HighScoreScreen : CCLayer {
-    
+    NSUserDefaults *highscores;
 }
 
 +(CCScene *) scene;

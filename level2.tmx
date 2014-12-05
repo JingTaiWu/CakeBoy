@@ -11,7 +11,7 @@
  </tileset>
  <layer name="platforms" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlmEKgCAMRoVO0CnyAh0h8H8/uv9NImgQ1bdmObd8MAIn+ZjTSiGE5Dym4BPym61FAOQ37DHa6lwgvzs237g/reD8PJDjRz0Q9XQutFS/MzXqeef3dk0NX839LeFr0X853i2fj1Jw9Wzp+1Hzbqa1POwvhxc/1IPa99/X/rWsn8T/jR/33tJnvmb9jv0l9Zf4PdVE897xcn4R6P+Kwpo/1W+xFAFsbh0IQpqTjqEcmtuDIKQ56RjKcXM9xwpTWCjG
+   eJzdlgEKgCAMRYVO0CnyAh0h8ABB979JBA2i+muWc8sHI3CSjzmtFEJIzmMKPiG/2VoEQH7DHqOtzgXyu2PzjfvTCs7PAzl+1ANRT+dCS/U7U6Oed35v19Tw1dzfEr4W/Zfj3fL5KAVXz5a+HzXvZlrLw/5yePFDPah9/33tX8v6Sfzf+HHvLX3ma9bv2F9Sf4nfU0007x0v5xeB/q8orPlT/RZLEcDm1oEgpDnpGMqhuT0IQpqTjqEcN9dzrGTUKMc=
   </data>
  </layer>
  <layer name="rewards" width="40" height="30">

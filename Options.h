@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SimpleAudioEngine.h"
 
 /** Convenience class for setting / getting game options */
 @interface Options : NSObject

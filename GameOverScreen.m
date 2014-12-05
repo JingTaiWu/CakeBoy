@@ -33,6 +33,9 @@
     self = [super init];
     
     if(self) {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        
+        
         // Get the screen dimension
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;

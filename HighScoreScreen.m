@@ -92,6 +92,7 @@
         highscore2.position = ccp( screenWidth /2 , screenHeight/1.7 );
         highscore3.position = ccp( screenWidth /2 , screenHeight/1.95 );
         
+        
         [self addChild:highscore1];
         [self addChild:highscore2];
         [self addChild:highscore3];

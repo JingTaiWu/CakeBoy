@@ -70,19 +70,19 @@
         [self addChild: label];
         
         // Print the high score
-        NSString *basescore1 = @"0";
+        NSString *basescore1 = @"";
         
         basescore1 = [basescore1 stringByAppendingString:[NSString stringWithFormat:@"%d", arr[0]]];
         
         CCLabelTTF *highscore1 = [CCLabelTTF labelWithString:basescore1 fontName:@"Marker Felt" fontSize:30];
         
-        NSString *basescore2 = @"0";
+        NSString *basescore2 = @"";
         
         basescore2 = [basescore2 stringByAppendingString:[NSString stringWithFormat:@"%d", arr[1]]];
         
         CCLabelTTF *highscore2 = [CCLabelTTF labelWithString:basescore2 fontName:@"Marker Felt" fontSize:30];
         
-        NSString *basescore3 = @"0";
+        NSString *basescore3 = @"";
         
         basescore3 = [basescore3 stringByAppendingString:[NSString stringWithFormat:@"%d", arr[2]]];
         

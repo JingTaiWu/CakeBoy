@@ -135,10 +135,12 @@
     feedback.position = ccp(TOPOINT(grace.x), TOPOINT(grace.y + grace.height));
 
     [feedback setVisible:TRUE];
-	
+    
 	// Set the alarm to freeze everybody
 //    [self schedule:@selector(caughtReset)];
 	[NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(caughtReset) userInfo:nil repeats:NO];
+    
+    [self setPosition: ccp(0, 0)];
 }
 
 - (void) caughtReset {
@@ -154,9 +156,11 @@
 	// Reset grace to its initial position and not moving
     [grace reset];
     
+    
     [feedback setVisible:FALSE];
     
 	caught = FALSE;
+    
 }
 
 - (bool) collidesWith: (id) enemy_ {

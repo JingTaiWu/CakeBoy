@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztl1sKgCAQRWcnLqFdhAsI2v9Oog8ppJl0cuz6OHD/DwdD80TkwYeKxm+1EGHQ+G0WIgwaP3ebNT2evyesmo7SL8ZRmaaj9pPI6Tr7pcH1RPHjQPULPVH9Agh+0veM4CdR2y/3Tum931uPef9epJ6dku/AVvvV/MeQaKnf/qcIw+kWv8XRtsx92gFKajK2
+   eJztlksKgDAMRHOTHsFbSA8geP+biIuCFNJfYjPVPJiVm9fR2EQiiuBBxf1kuJ8MLb/wiCajfruyB8eo31F5Hkin01G/t95njsV89JztL/MrhesTxY8D1S/1ieqXQPArzTOCX4nZfr3/9a/3V+vD6v6dRY9f67ejuTes2t+s/anGSv2dliIMt1u+i6Nl84hyAUKBMrY=
   </data>
  </layer>
  <layer name="rewards" width="40" height="30">

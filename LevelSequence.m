@@ -27,8 +27,8 @@ static int levelno = 0;
 }
 
 + (Class) nextLevel {
-	if(levelno >= [levels count] + 1) {
-        levelno = 0;
+	if(levelno >= [levels count]) {
+        return nil;
     }
         
     Class alevel = [levels objectAtIndex:levelno++];

@@ -63,6 +63,7 @@
         caught = true;
     } else if([self isJello:gid]) {
         caught = true;
+        [obstacleLayer removeTileAt:contact];
     }
 }
 
@@ -89,11 +90,12 @@
     
     [super update:dt];
     
+    
     if([grace collidesWith: obstacleLayer]) {
         [self handlePCObstacleCollision];
     }
     
     if(caught)
-        [self handlePCCaught];
+        [super handlePCCaught];
 }
 @end

@@ -55,12 +55,16 @@
     
     [super update:dt];
     
+    for(Enemy* enemy in enemies) {
+        [enemy update];
+    }
+    
     if([grace collidesWith: powerUpLayer]) {
-        [self handlePCObstacleCollision];
+        [self handlePowerUpCollision];
     }
     
     if(caught)
-        [self handlePCCaught];
+        [super handlePCCaught];
 }
 
 -(void)handlePowerUpCollision {
@@ -82,7 +86,11 @@
 		
 		gid = [powerUpLayer tileGIDAt:contact];
 	} else if([self isPowerUp:gid]) {
-        [enemies removeAllObjects];
+        for(Enemy* enemy in enemies) {
+            enemy.state = STATE_DYING;
+        }
+        [enemiesLayer setVisible:false];
+        [powerUpLayer removeTileAt: contact];
     }
 }
 @end
